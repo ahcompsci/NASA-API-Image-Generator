@@ -1,0 +1,47 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+h1{
+  margin-bottom: -2px;
+}
+
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+#userInput{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input,  button {
+  margin-top: 25px;
+
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+}
+
+#desc {
+  font-size: medium;
+  font-weight:400;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
